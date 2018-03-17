@@ -4,7 +4,7 @@ This is the full starting application (with image gallery) for the final chapter
 
 To get started, first for the repository using the **Fork** button on the upper-right of the screen.
 
-The next step depends on whether or not you currently have a default GitHub Pages site at <your username>.github.io (as developed in [*Learn Enough CSS & Layout to Be Dangerous*](https://www.learnenough.com/css-and-layout-tutorial)).
+The next step depends on whether or not you currently have a default GitHub Pages site at &lt;your username&gt;.github.io (as developed in [*Learn Enough CSS & Layout to Be Dangerous*](https://www.learnenough.com/css-and-layout-tutorial)).
 
 If you don't have such a repository, you can clone the gallery app there directly:
 
