@@ -1,6 +1,6 @@
 # Sample app with gallery
 
-This is the full starting application (with image gallery) for the final chapter of [*Learn Enough JavaScript to Be Dangerous*](https://www.learnenough.com/javascript-tutorial), based on the sample application developed in [*Learn Enough CSS & Layout to Be Dangerous*](https://www.learnenough.com/learn-enough-css-tutorial).
+This is the full starting application (with image gallery) for the final chapter of [*Learn Enough JavaScript to Be Dangerous*](https://www.learnenough.com/javascript-tutorial) by Michael Hartl, based on the sample application developed in [*Learn Enough CSS & Layout to Be Dangerous*](https://www.learnenough.com/learn-enough-css-tutorial) by Lee Donahoe and Michael Hartl.
 
 To get started, first for the repository using the **Fork** button on the upper-right of the screen.
 
@@ -34,4 +34,4 @@ In either case, you can run the app using the `jekyll` static site builder:
 $ jekyll serve
 ```
 
-At that point, the app will be running on [localhost:4000](http://localhost:4000).
+At that point, the app will be running on [localhost:4000](http://localhost:4000). To deploy your app, push up the app to GitHub Pages as [described](https://www.learnenough.com/css-and-layout-tutorial/css/introduction/sample_site_setup) in [*Learn Enough CSS & Layout to Be Dangerous*](https://www.learnenough.com/learn-enough-css-tutorial).
