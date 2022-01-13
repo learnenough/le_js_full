@@ -28,10 +28,17 @@ $ cp gallery/index.html /path/to/repo/<your username>.github.io/gallery/
 $ cp -r images/* /path/to/repo/<your username>.github.io/images/
 ```
 
-In either case, you can run the app using the `jekyll` static site builder:
+In either case, you can run the app using the Jekyll static site builder. First install Bundler and the `jekyll` gem:
 
 ```
-$ jekyll serve
+$ gem install bundler -v 2.2.17
+$ bundle _2.2.17_ install
+```
+
+Then serve the website using `bundle exec` to execute the `jekyll` program:
+
+```
+$ bundle exec jekyll serve
 ```
 
 At that point, the app will be running on [localhost:4000](http://localhost:4000). To deploy your app, push up the app to GitHub Pages as [described](https://www.learnenough.com/css-and-layout-tutorial/css/introduction/sample_site_setup) in [*Learn Enough CSS & Layout to Be Dangerous*](https://www.learnenough.com/css-and-layout-tutorial).
