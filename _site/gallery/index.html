@@ -14,7 +14,14 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway:100" rel="stylesheet">
   <link rel="stylesheet" href="/fonts/font-awesome-4.7.0/css/font-awesome.css">
   <link rel="stylesheet" href="/css/main.css">
+  <script src="/js/gallery.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      activateGallery();
+    });
+  </script>
 </head>
+
   <body>
     <header class="header">
   <nav>
@@ -68,13 +75,13 @@
       <img src="/images/small/desert.jpg" alt="desert vista"
            data-large-version="/images/large/desert.jpg"
            data-title="Desert vista"
-           data-description="A desert vista in southern California.">
+           data-description="A view of Joshua Tree National Park.">
     </div>
     <div>
-      <img src="/images/small/disney.jpg" alt="Disney Concert Hall"
+      <img src="/images/small/disney.jpg" alt="Walt Disney Concert Hall"
            data-large-version="/images/large/disney.jpg"
-           data-title="Disney Concert Hall"
-           data-description="Disney Concert Hall in downtown Los Angeles, CA.">
+           data-title="Walt Disney Concert Hall"
+           data-description="Walt Disney Concert Hall in downtown Los Angeles.">
     </div>
     <div>
       <img src="/images/small/fish.jpg" alt="fish"
@@ -86,7 +93,7 @@
       <img src="/images/small/flavian.jpg" alt="Flavian Amphitheater"
            data-large-version="/images/large/flavian.jpg"
            data-title="Flavian Amphitheater"
-           data-description="The Flavian Amphitheater (Colosseum) in Rome, Italy.">
+           data-description="The Flavian Amphitheater (Colosseum) in Rome.">
     </div>
     <div>
       <img src="/images/small/huntington.jpg" alt="Huntington Gardens"
@@ -128,17 +135,17 @@
       <img src="/images/small/turtle.jpg" alt="turtle"
            data-large-version="/images/large/turtle.jpg"
            data-title="Sea Turtle"
-           data-description="A curious sea turtle.">
+           data-description="A friendly sea turtle.">
     </div>
   </div>
   <div class="col col-content">
     <div class="gallery-photo" id="gallery-photo">
-      <img src="/images/large/boat.jpg" alt="Image title 1">
+      <img src="/images/large/boat.jpg" alt="Catamaran">
     </div>
   </div>
   <div class="col col-aside gallery-info" id="gallery-info">
-    <h3>Venice Beach</h3>
-    <p>An overhead shot of Venice Beach, California.</p>
+    <h3 class="title">Pacific Sunset</h3>
+    <p class="description">A sunset over the Pacific Ocean.</p>
   </div>
 </div>
 
